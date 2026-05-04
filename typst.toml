@@ -1,0 +1,8 @@
+[package]
+name = "typstemplate"
+version = "0.1.0"
+authors = ["arsnm <https://github.com/arsnm>"]
+license = "UNLICENSE"
+descripition = "Various templates and configurations for my owm use of typst."
+repository = "https://github.com/arsnm/typstemplate"
+
