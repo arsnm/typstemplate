@@ -5,4 +5,5 @@ authors = ["arsnm <https://github.com/arsnm>"]
 license = "UNLICENSE"
 descripition = "Various templates and configurations for my owm use of typst."
 repository = "https://github.com/arsnm/typstemplate"
+entrypoint = "src/lib.typ"
 
