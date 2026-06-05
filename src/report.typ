@@ -30,7 +30,7 @@
 
   set page(
     paper: paper,
-    margin: 2cm,
+    margin: (top: 3cm, rest: 2cm),
     header: grid(
       columns: (1fr, auto, 1fr),
       align: (left + horizon, center + horizon, right + horizon),
@@ -84,7 +84,7 @@
       #it.body
     ]
   }
-  set heading(numbering: "1.1.1.")
+  //set heading(numbering: "1.1.1.")
   set heading(numbering: "I.i.a.")
 
   title()
