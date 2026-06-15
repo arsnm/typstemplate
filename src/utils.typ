@@ -23,3 +23,9 @@
     author.map(single-author-normalizer)
   }
 }
+
+#let weblink(url, body) = {
+  text(fill: blue,
+  underline(link(url, body))
+  )
+}

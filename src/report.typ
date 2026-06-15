@@ -42,7 +42,7 @@
           _#{
             if a.mail != none {
               link("mailto:" + a.mail)[
-                #{if show-mail [#a.name (#a.mail)] else [#a.name]}
+                #{if show-mail [#a.name \ (#a.mail)] else [#a.name]}
               ]
             } else {
               a.name
